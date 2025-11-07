@@ -66,7 +66,7 @@ function getPlants() {
     if (!name || !qty) return alert("Enter order details!");
   
     document.getElementById("orderMsg").innerHTML =
-      `✅ Order placed for ${qty} ${name}(s)!`;
+      `Order placed for ${qty} ${name}(s)!`;
   
     document.getElementById("orderPlant").value = "";
     document.getElementById("orderQty").value = "";
